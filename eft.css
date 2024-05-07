@@ -1,0 +1,86 @@
+
+header{
+    width: 100%;
+    background-color: black;
+    height: 115px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.back{
+    display: flex;
+    background: url(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/10/Dg.jpg/revision/latest) no-repeat fixed center top / cover #0e0e0e;
+    /* flex-direction: column; */
+    border-radius: 20px;
+    color: #c9a55f;
+    /* flex-wrap: nowrap; */
+    /* align-items: baseline; */
+}
+.text{
+    margin-left: 50px;
+}
+.top{
+    display: flex;
+    justify-content:center;
+    height: 73px;
+}
+.h3{
+    display: flex;
+    color: #c9a55f;
+}
+.tpm{
+    display: flex;
+    flex-direction: column;
+}
+.ph1{
+    display: flex;
+    width: 700px;
+    border-radius: 15px;
+}
+.mg{
+    background-color: black;
+    color: #c9a55f;
+}
+table{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    width: 400px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+.img1:hover{
+    transform: scale(1.5);
+}
+.td0{
+    display: flex;
+    justify-content: center;
+}
+.td1{
+    display: flex;
+}
+.td2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+}
+.td3{
+    display: flex;
+    flex-direction: column;
+}
+
+.img2{
+    width: 1000px;
+}
